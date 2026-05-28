@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vesper — Finance & Goals</title>
+  <meta name="description" content="The finance app that actually pays attention. Bank sync, AI advisor, net worth tracking, and daily quests." />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0A0E1A;
+      color: #FFFFFF;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+    }
+    .moon { font-size: 64px; margin-bottom: 16px; }
+    h1 { font-size: 42px; font-weight: 800; letter-spacing: -1px; margin-bottom: 8px; }
+    .subtitle {
+      font-size: 18px;
+      color: #8A92A6;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #F4B942, #00D4AA);
+      border-radius: 14px;
+      padding: 2px;
+      margin-bottom: 48px;
+    }
+    .badge a {
+      display: block;
+      background: #0A0E1A;
+      border-radius: 12px;
+      padding: 14px 32px;
+      color: #F4B942;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 700;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      max-width: 720px;
+      width: 100%;
+      margin-bottom: 48px;
+    }
+    .feature {
+      background: #141828;
+      border: 1px solid #2A3150;
+      border-radius: 16px;
+      padding: 20px;
+    }
+    .feature-emoji { font-size: 28px; margin-bottom: 10px; }
+    .feature-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+    .feature-desc { font-size: 13px; color: #8A92A6; line-height: 1.5; }
+    footer {
+      font-size: 13px;
+      color: #4A5568;
+      text-align: center;
+      line-height: 1.8;
+    }
+    footer a { color: #4A5568; }
+  </style>
+</head>
+<body>
+  <div class="moon">🌙</div>
+  <h1>Vesper</h1>
+  <p class="subtitle">The finance app that actually pays attention.</p>
+
+  <div class="badge">
+    <a href="https://apps.apple.com/app/vesper-finance-goals/id000000000" id="app-store-link">
+      Download on the App Store
+    </a>
+  </div>
+
+  <div class="features">
+    <div class="feature">
+      <div class="feature-emoji">🏦</div>
+      <div class="feature-title">Bank Sync</div>
+      <div class="feature-desc">Connect your bank via Plaid and auto-import transactions. Your credentials never touch our servers.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-emoji">🤖</div>
+      <div class="feature-title">AI Advisor</div>
+      <div class="feature-desc">Ask anything about your finances. Vesper knows your real numbers and gives straight answers.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-emoji">📈</div>
+      <div class="feature-title">Net Worth Tracking</div>
+      <div class="feature-desc">See your millionaire countdown, savings rate, and net worth in real time.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-emoji">🎯</div>
+      <div class="feature-title">Goals & Quests</div>
+      <div class="feature-desc">Savings goals with progress tracking, daily quests, streaks, and XP to keep you engaged.</div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Grady White &nbsp;·&nbsp;
+      <a href="PRIVACY.md">Privacy Policy</a> &nbsp;·&nbsp;
+      <a href="mailto:gradywhite1000@gmail.com">Support</a>
+    </p>
+  </footer>
+</body>
+</html>
